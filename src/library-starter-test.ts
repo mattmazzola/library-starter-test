@@ -4,3 +4,4 @@
 export default class DummyClass {}
 export class OtherDummyClass {}
 export class ThirdDummyClass {}
+export class FourthDummyClass {}
