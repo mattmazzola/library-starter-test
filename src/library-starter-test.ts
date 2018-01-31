@@ -2,3 +2,4 @@
 // import "core-js/fn/array.find"
 // ...
 export default class DummyClass {}
+export class OtherDummyClass {}

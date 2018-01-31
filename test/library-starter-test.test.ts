@@ -1,4 +1,4 @@
-import DummyClass from '../src/library-starter-test'
+import DummyClass, { OtherDummyClass } from '../src/library-starter-test'
 
 /**
  * Dummy test
@@ -10,5 +10,11 @@ describe('Dummy test', () => {
 
   it('DummyClass is instantiable', () => {
     expect(new DummyClass()).toBeInstanceOf(DummyClass)
+  })
+})
+
+describe('Other Dummy test', () => {
+  it('OtherDummyClass is instantiable', () => {
+    expect(new OtherDummyClass()).toBeInstanceOf(OtherDummyClass)
   })
 })
