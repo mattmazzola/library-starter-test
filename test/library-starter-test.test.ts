@@ -13,6 +13,9 @@ describe('Dummy test', () => {
   })
 })
 
+/**
+ * Add comment
+ */
 describe('Other Dummy tests', () => {
   it('OtherDummyClass is instantiable', () => {
     expect(new Dummies.OtherDummyClass()).toBeInstanceOf(
