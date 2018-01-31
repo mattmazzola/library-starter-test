@@ -28,10 +28,4 @@ describe('Other Dummy tests', () => {
       Dummies.ThirdDummyClass
     )
   })
-
-  it('OtherDummyClass is instantiable', () => {
-    expect(new Dummies.FourthDummyClass()).toBeInstanceOf(
-      Dummies.FourthDummyClass
-    )
-  })
 })
